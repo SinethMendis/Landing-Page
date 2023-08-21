@@ -5,7 +5,6 @@ body {
     background-color: gainsboro;
     display: flex;
     flex-direction: column;
-    /* gap: 10px; */
     height: 1500px;
 }
 
@@ -78,7 +77,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -174,12 +173,14 @@ a {
 .btn {
     background-color: #3882F6;
     font-size: 13px;
-    border-radius: 20px;
+    border-radius: 12px;
     width: 110px;
     height: 40px;
     padding-left: 10px;
     padding-right: 10px;
     font-weight: bold;
+    color: #ffffff;
+    border-color: #1F2937;
 
 }
 
@@ -298,7 +299,7 @@ a {
 }
 
 
-.main-container{
+.main-container {
     background-color: #E5E7EB;
     width: 50%;
     height: 50%;
@@ -311,14 +312,16 @@ a {
 
 
 
-.sub-container{
+.sub-container {
 
     background-color: #E5E7EB;
     width: 50%;
-    height:10%;
+    height: 10%;
     text-align: right;
     padding-right: 20px;
     font-style: italic;
+    color: black;
+    font-weight: bold;
 
 
 }
@@ -326,37 +329,86 @@ a {
 
 
 .body-container-4 {
-    background-color: rgb(25, 229, 236);
+    background-color: #ffffff;
     height: 10%;
     width: 100%;
 }
 
 
+.body-container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.subcontainer-box {
+    background-color: #3882F6;
+    width: 65%;
+    height: 60%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.box-again {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content-1 {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #ffffff;
+
+
+
+}
+
+.content-2 {
+    font-size: 10px;
+    color: #ffffff;
+
+}
 
 
 
 
+.cab {
+    background-color: #3882F6;
+    font-size: 15px;
+    border-radius: 12px;
+    width: 110px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    border-color: #ffffff;
+    border-style: outset;
+    color: #ffffff;
 
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
 .footer {
     width: 100%;
     height: 40px;
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
     display: flex;
     color: white;
     justify-content: center;
     align-items: center;
 
+}
+
+.footer-note {
+    font-size: 9px;
 }
